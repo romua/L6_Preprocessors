@@ -1,0 +1,85 @@
+body {
+  background-color: #ddbc9b;
+  font: normal 12px/18px Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  color: black;
+}
+
+#content {
+  box-sizing: border-box;
+  background-color: white;
+  width: 85%;
+  margin: 0 auto 0 auto;
+  padding: 5px 25px 0 25px;
+}
+#content h1 {
+  color: #812d00;
+}
+#content h2 {
+  padding-top: 20px;
+  color: #8c3d05;
+  font-style: italic;
+}
+#content .img-left {
+  box-sizing: border-box;
+  display: inline-block;
+  float: left;
+  padding: 2px;
+  border: 2px solid #863500;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  margin-top: 4px;
+}
+#content .brief {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 30%;
+  float: left;
+  padding: 15px;
+  background-color: #fadcba;
+  font-style: italic;
+  margin: 4px 10px 7px 0;
+}
+#content .img-right {
+  box-sizing: border-box;
+  display: inline-block;
+  float: right;
+  padding: 2px;
+  border: 2px solid #863500;
+  margin-left: 15px;
+  margin-top: 4px;
+}
+#content a {
+  color: #0000EE;
+}
+#content table {
+  box-sizing: border-box;
+  width: 100%;
+  border-collapse: collapse;
+  padding-bottom: 40px;
+  background-color: white;
+}
+#content table caption {
+  text-align: right;
+  font-style: italic;
+  font-size: 1.2em;
+  padding: 10px;
+}
+#content table tr {
+  padding: 10px;
+}
+#content table tr th {
+  background-color: #DAD8D8;
+  text-align: left;
+  padding: 10px;
+  border-right: 1px solid white;
+}
+#content table tr td {
+  border-bottom: 1px solid #DAD8D8;
+  padding: 10px;
+}
+#content p:last-child {
+  padding-bottom: 20px;
+}
+
+/*# sourceMappingURL=style1.css.map */

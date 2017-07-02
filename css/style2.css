@@ -1,0 +1,85 @@
+body {
+  background-color: #659a01;
+  font: normal 15px/20px Georgia, "Times New Roman", Times, serif;
+  box-sizing: border-box;
+  color: white;
+}
+
+#content {
+  box-sizing: border-box;
+  background-color: #666701;
+  width: 85%;
+  margin: 0 auto 0 auto;
+  padding: 5px 25px 0 25px;
+}
+#content h1 {
+  color: #fccc0d;
+}
+#content h2 {
+  padding-top: 20px;
+  color: #ffce11;
+  font-style: normal;
+}
+#content .img-left {
+  box-sizing: border-box;
+  display: inline-block;
+  float: left;
+  padding: 8px;
+  border: 2px solid #e1e1cd;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  margin-top: 4px;
+}
+#content .brief {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  float: none;
+  padding: 15px;
+  background-color: #677d01;
+  font-style: italic;
+  margin: 4px 0px 20px 0;
+}
+#content .img-right {
+  box-sizing: border-box;
+  display: inline-block;
+  float: right;
+  padding: 8px;
+  border: 2px solid #e1e1cd;
+  margin-left: 15px;
+  margin-top: 4px;
+}
+#content a {
+  color: #fccc0d;
+}
+#content table {
+  box-sizing: border-box;
+  width: 100%;
+  border-collapse: collapse;
+  padding-bottom: 40px;
+  background-color: #677d01;
+}
+#content table caption {
+  text-align: right;
+  font-style: italic;
+  font-size: 1.2em;
+  padding: 10px;
+}
+#content table tr {
+  padding: 10px;
+}
+#content table tr th {
+  background-color: #94a34e;
+  text-align: left;
+  padding: 10px;
+  border-right: none;
+}
+#content table tr td {
+  border-bottom: 1px solid #DAD8D8;
+  padding: 10px;
+}
+#content p:last-child {
+  padding-bottom: 20px;
+}
+
+/*# sourceMappingURL=style2.css.map */

@@ -1,0 +1,118 @@
+$bodyFont: normal 12px/18px Arial, Helvetica, sans-serif !default;
+$bodyBgColor: white !default;
+$bodyColor: black !default;
+$header1Color: black !default;
+$header2Color: grey !default;
+$contentBgColor: white !default;
+$imgBorderColor: black !default;
+$header2FontStyle: normal !default;
+$briefDisplay: block !default;
+$briefWidth: 100% !default;
+$briefMargin: 0 !default;
+$briefBgColor: grey !default;
+$tableHeaderBgColor: black !default;
+$tableHeaderBorder: none !default; 
+$tableBgColor: white !default;
+$tableWidth: 100% !default;
+$briefFloat: none !default;
+$imgPadding: 0 !default;
+$aColor: #0000EE !default;
+
+
+
+body {
+	background-color: $bodyBgColor;
+	font: $bodyFont;
+	box-sizing: border-box;
+	color: $bodyColor;
+}
+
+#content {
+	box-sizing: border-box;
+	background-color: $contentBgColor;
+	width: 85%;
+	margin: 0 auto 0 auto;
+	padding: 5px 25px 0 25px;
+
+	h1 {
+		color: $header1Color;
+	}
+
+	h2 {
+		padding-top: 20px;
+		color: $header2Color;
+		font-style: $header2FontStyle;
+	}
+	
+	.img-left {
+		box-sizing: border-box;
+		display: inline-block;
+		float: left;
+		padding: $imgPadding;
+		border: 2px solid $imgBorderColor;
+		margin-right: 15px;
+		margin-bottom: 10px;
+		margin-top: 4px;
+	}
+	
+
+	.brief {
+		box-sizing: border-box;
+		display: $briefDisplay;
+		width: $briefWidth;
+		float: $briefFloat;
+		padding: 15px;
+		background-color: $briefBgColor;
+		font-style: italic;
+		margin: $briefMargin;
+	}
+
+	.img-right {
+		box-sizing: border-box;
+		display: inline-block;
+		float: right;
+		padding: $imgPadding;
+		border: 2px solid $imgBorderColor;
+		margin-left: 15px;
+		margin-top: 4px;
+	}
+	
+	a {
+		color: $aColor;
+	}
+
+	table {
+		box-sizing: border-box;
+		width: $tableWidth;
+		border-collapse: collapse;
+		padding-bottom: 40px;
+		background-color: $tableBgColor;
+
+		caption {
+			text-align: right;
+			font-style: italic;
+			font-size: 1.2em;
+			padding: 10px;
+		}
+
+		tr {
+			padding: 10px;
+
+			th {
+				background-color: $tableHeaderBgColor;
+				text-align: left;
+				padding: 10px;
+				border-right: $tableHeaderBorder;
+			}
+
+			td {
+				border-bottom: 1px solid #DAD8D8;
+				padding: 10px;
+			}
+		}
+	}
+
+	p:last-child {
+		padding-bottom: 20px;
+	}
+}
